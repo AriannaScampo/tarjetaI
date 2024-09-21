@@ -1,0 +1,80 @@
+/*fuente de nombres*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+/*fuente para title*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", sans-serif; */
+
+
+:root {
+  --primary-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+
+  border: 5px;
+  background-image: url(/assets/Fondo.jpeg);
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 0px;
+  text-align: center;
+  color: rgb(187, 141, 124);
+}
+
+.tarjeta {
+  background-color: rgba(255, 255, 255, 0.74);
+  width: 600px;
+  height: 360px;
+  padding: 20px;
+}
+
+.tarjeta h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgba(221, 154, 66, 0.671);
+}
+
+.info {
+  font-size: 19px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  text-align: center;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  margin: 0px;
+}
+
+footer {
+  background-color: rgba(187, 141, 124, 0.294);
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
+  top: 30px;
+  color: rgb(54, 49, 39);
+  border-radius: 15px;
+  margin-top: 10px;
+}
